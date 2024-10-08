@@ -7,6 +7,9 @@ import { NavButtonComponent } from './atomic/atom/nav-button/nav-button.componen
 import { NavbarComponent } from './atomic/organism/navbar/navbar.component';
 import { DropdownButtonComponent } from './atomic/molecule/dropdown-button/dropdown-button.component';
 import { TextLinkComponent } from './atomic/atom/text-link/text-link.component';
+import { ProductCardComponent } from './atomic/molecule/product-card/product-card.component';
+import { HeaderComponent } from './atomic/organism/header/header.component';
+import { FooterComponent } from './atomic/organism/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { TextLinkComponent } from './atomic/atom/text-link/text-link.component';
     NavButtonComponent,
     NavbarComponent,
     DropdownButtonComponent,
-    TextLinkComponent
+    TextLinkComponent,
+    ProductCardComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
